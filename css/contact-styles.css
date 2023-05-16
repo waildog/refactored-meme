@@ -1,0 +1,12 @@
+input {
+    background-color: white;
+    color: rgb(41, 116, 202);
+    padding: .5rem;
+    margin-bottom: 1rem;  
+    border-radius: 8px; 
+    font-size: .75rem;     
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+

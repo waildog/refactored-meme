@@ -1,7 +1,7 @@
 /* Global Styles */
 html {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Mukta Malar', sans-serif;
     font-size: 1.25rem;
     line-height: 125%;
     color: #50504F;
@@ -19,6 +19,7 @@ body {
 }
   
 h1, h2 {
+font-family: 'Abril Fatface', cursive;
 text-align: center;
 }
 
@@ -45,6 +46,13 @@ color: #fff;
 text-decoration: none;
 }
 
+nav a:hover {
+    color:#333;
+    background-color:white;
+    padding: 20px;
+    transition: all 0.3s;
+}
+
 section {
 padding: 50px;
 }
@@ -54,20 +62,5 @@ background-color: #333;
 color: #fff;
 padding: 20px;
 text-align: center;
-}
-
-.gallery {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-}
-
-figure {
-margin: 10px;
-text-align: center;
-}
-
-figcaption {
-margin-top: 10px;
 }
   

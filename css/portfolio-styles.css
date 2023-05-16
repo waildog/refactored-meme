@@ -1,0 +1,36 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100vh; /* Adjust the value as needed */
+    height: auto;
+}
+
+img:hover {
+    transform:scale(105%);
+    transition: 0.5s;
+}
+  
+figure {
+    margin: 10px;
+    text-align: center;
+    flex-basis: calc(33.33% - 20px);
+}
+  
+figcaption {
+    margin-top: 10px;
+}
+  
+  @media screen and (max-width: 768px) {
+    .gallery {
+      flex-direction: column;
+    }
+    
+    figure {
+      flex-basis: 100%;
+    }
+  }  
