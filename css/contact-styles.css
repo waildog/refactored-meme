@@ -1,6 +1,6 @@
-input {
-    background-color: white;
-    color: rgb(41, 116, 202);
+label {
+    background-color: #333;
+    color: white;
     padding: .5rem;
     margin-bottom: 1rem;  
     border-radius: 8px; 
@@ -8,5 +8,9 @@ input {
     letter-spacing: 1px;
     font-weight: 600;
     cursor: pointer;
+}
+
+textarea {
+    border-radius: 8px;
 }
 
