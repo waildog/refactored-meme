@@ -1,6 +1,19 @@
 /* Global Styles */
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    line-height: 125%;
+    color: #50504F;
+  }
+
+* ,
+* ::before ,
+* ::after {
+    box-sizing: inherit;
+}
+
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
